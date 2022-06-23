@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LightHouse Charities</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header id="pageTop">
+        <div class="header">
+            <img class="img1" src="img/lighthouse.png" alt="Logo for LightHouse Charity"/>
+            <!-- <a href="https://www.flaticon.com/free-icons/lighthouse" title="lighthouse icons">Lighthouse 
+            icons created by Freepik - Flaticon</a> -->
+        <h1>Lighthouse Charity</h1>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <ul class="menu">
+            <li><a class="menuItem" href="yup1.html">What LHC is about</a></li>
+            <li><a class="menuItem" href="yup2.html">What I Could Offer</a></li>
+            <li><a class="menuItem" href="yup3.html">How I Would Help</a></li>
+            <li><a class="menuItem" href="yup4.html">Who LHC serves</a></li>
+            <li><a class="menuItem" href="yup5.html">Organizations Like LHC</a></li>
+            <li><a class="menuItem" href="yup6.html">Questions & Concerns</a></li>
+            <li><a class="menuItem" href="https://www.lighthousecharities.net/" target="_blank">Company Website</a></li>
+        </ul>
+        <button class="hamburger">
+          <!-- material icons https://material.io/resources/icons/ -->
+          <i class="menuIcon material-icons">menu</i>
+          <i class="closeIcon material-icons">close</i>
+        </button>
+    </nav>
+    <main>
+        <h2>What Exactly is this Charity?</h2>
+    <div class="container">
+        <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tDBQPTTCyUo" title="YouTube video player"
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>This video provides a bit about the story of LightHouse Charities!</p>
+    </div>
+        <div class="para1"><h3 class="h3-1">What is LightHouse Charities?</h3>
+            <p>Lighthouse Charities is a non-profit charity that provides core services to legal immigrants and supplementary nutrition to food-insecure Nevadans (including refugee families) through regular food distributions. When people come together, they can make a big impact.</p> 
+            <p class="hide-me">Charities depend on individuals who commit to giving small amounts. While donations from big groups are great, a community that cares about a charity and who they serve is essential. It's those small donations that add up. The power of community proves that when people care and come together, change is more than possible. This inspires others around the world and encourages more participation in charities.</p>
+        </div>    
+      </div>
+        <div class="para2"><h3 class="h3-2">Why I Chose LightHouse Charities?</h3>
+            <p>Lighthouse charities is something that I can remember growing up. My mom got introduced to and fell in love with it. This charity 
+            offers so much for people in need and one of the main reasons I chose this is because I have helped out here before. The one specifically in Las Vegas(my home) 
+            would really give back to refugees! Some of the families we met here, would often times become family friends..</p>
+        </div>
+    <h5>
+        <a href="#" class="button">Return to top</a>
+    </h5>
+    </main>
+
+    <script>
+      const menu = document.querySelector(".menu");
+      const menuItems = document.querySelectorAll(".menuItem");
+      const hamburger= document.querySelector(".hamburger");
+      const closeIcon= document.querySelector(".closeIcon");
+      const menuIcon = document.querySelector(".menuIcon");
+
+      function toggleMenu() {
+        if (menu.classList.contains("showMenu")) {
+          menu.classList.remove("showMenu");
+          closeIcon.style.display = "none";
+          menuIcon.style.display = "block";
+  }     else {
+          menu.classList.add("showMenu");
+          closeIcon.style.display = "block";
+          menuIcon.style.display = "none";
+  }
+}
+
+      hamburger.addEventListener("click", toggleMenu);
+
+      menuItems.forEach( 
+        function(menuItem) { 
+          menuItem.addEventListener("click", toggleMenu);
+  }
+)
+    </script>
+
+
+
+
+    <br><br><br><br><br><br>
+  <style>.footer,.generic-footer{margin-bottom:98px}@media (min-width:374px){.footer,.generic-footer{margin-bottom:78px}}@media (min-width:546px){.footer,.generic-footer{margin-bottom:56px}}@media (min-width:1055px){.footer,.generic-footer{margin-bottom:0}}.disclaimer{position:fixed;z-index:9999999;bottom:0;right:0;border-top:2px solid #ff5c62;text-align:center;font-size:14px;font-weight:400;background-color:#fff;padding:5px 10px 5px 10px}.disclaimer a:hover{text-decoration:underline}@media (min-width:1052px){.disclaimer{text-align:right;border-left:2px solid red;border-top-left-radius:10px}}@media (min-width:1920px){.disclaimer{width:60%}}</style><div class="disclaimer">We support Ukraine and condemn war. Push Russian government to act against war. Be brave, vocal and show your support to Ukraine. Follow the latest news <a title="https://www.bbc.com/news/live/world-europe-60517447" target="_blank" href="https://www.bbc.com/news/live/world-europe-60517447" style="color: black;"><b>HERE</b></a></div><style>.footer,.generic-footer{margin-bottom:98px}@media (min-width:374px){.footer,.generic-footer{margin-bottom:78px}}@media (min-width:546px){.footer,.generic-footer{margin-bottom:56px}}@media (min-width:1055px){.footer,.generic-footer{margin-bottom:0}}.disclaimer{position:fixed;z-index:9999999;bottom:0;right:0;border-top:2px solid #ff5c62;text-align:center;font-size:14px;font-weight:400;background-color:#fff;padding:5px 10px 5px 10px}.disclaimer a:hover{text-decoration:underline}@media (min-width:1052px){.disclaimer{text-align:right;border-left:2px solid red;border-top-left-radius:10px}}@media (min-width:1920px){.disclaimer{width:60%}}</style><div class="disclaimer">We support Ukraine and condemn war. Push Russian government to act against war. Be brave, vocal and show your support to Ukraine. Follow the latest news <a title="https://www.bbc.com/news/live/world-europe-60517447" target="_blank" href="https://www.bbc.com/news/live/world-europe-60517447" style="color: black;"><b>HERE</b></a></div></body>
+</html>
